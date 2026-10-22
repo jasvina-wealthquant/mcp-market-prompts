@@ -1,0 +1,16 @@
+# Never commit secrets
+.env
+.env.*
+*.key
+access_token*
+state.json
+
+# Logs and generated data
+*.csv
+*.log
+charts/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
