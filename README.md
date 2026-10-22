@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Prompts](https://img.shields.io/badge/prompts-7-blue.svg)
+![Prompts](https://img.shields.io/badge/prompts-8-blue.svg)
 ![Focus](https://img.shields.io/badge/focus-markets%20%7C%20research%20%7C%20algo-orange.svg)
 
 </div>
@@ -42,6 +42,12 @@ This repo is a collection of the master prompts I actually use for that. Each on
 | [Iron Condor Bot](prompts/algo-trading/iron-condor-bot.md) | A defined risk version, with wings, that caps the loss | Kite Connect API, Claude Code |
 
 Read the [disclaimer](DISCLAIMER.md) before you touch the trading section.
+
+### Charting and scanning
+
+| Prompt | What it does | Needs |
+| --- | --- | --- |
+| [Crypto Renko and PnF Scanner](prompts/charting/crypto-renko-pnf.md) | Builds log based Renko and PnF charts for crypto, marks patterns, ranks symbols by relative strength versus BTC. Analysis only, no orders | Python, Claude Code |
 
 ## How to use
 
